@@ -1,0 +1,42 @@
+/*
+
+Syntax for CSS:
+selection{
+	property: value;
+}
+
+*/
+
+/*universal selector*/
+
+*{
+
+font-family: 'Roboto', sans-serif;
+}
+
+h1, p{
+font-family: 'Montserrat', sans-serif;
+}
+
+#profile{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+
+}
+
+body{
+background-color: #ffffff;
+background-image: url("https://wallpapers.com/images/featured/b2sjqn7fm1xquklw.jpg");
+background-attachment: fixed;
+background-size: cover;
+}
+
+#landing{
+/* vh stands for viewport height */
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
